@@ -3,9 +3,11 @@ workflows:
     name: Unity Unsigned Build
     instance_type: mac_mini_m2
     scripts:
+      - name: Fetch Large Files (LFS)
+        script: |
+          git lfs pull
       - name: Build Unsigned IPA
         script: |
-          # Build from the subfolder and force output to a local build dir
           xcodebuild build \
             -project "Client_Test_Ios/Unity-iPhone.xcodeproj" \
             -scheme "Unity-iPhone" \
@@ -18,11 +20,8 @@ workflows:
             AD_HOC_CODE_SIGNING_ALLOWED=YES
       - name: Package to IPA
         script: |
-          # Create Payload folder and move the compiled .app into it
           mkdir -p build/ipa/Payload
-          # Find the .app file in the new build directory and copy it
           cp -r build/Build/Products/Release-iphoneos/Unity-iPhone.app build/ipa/Payload/
-          # Zip it into an IPA
           cd build/ipa && zip -r unsigned_app.ipa Payload
     artifacts:
       - build/ipa/*.ipa
