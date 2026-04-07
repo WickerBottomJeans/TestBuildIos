@@ -348,7 +348,7 @@
 		12194A7EAED6141FA754A3AA /* QRCoder.Unity_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = QRCoder.Unity_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/QRCoder.Unity_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		123EB25AA78A32E7E8A23F91 /* Unity.RenderPipelines.Universal.Runtime__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Universal.Runtime__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__5.cpp; sourceTree = SOURCE_ROOT; };
 		1301BA344D53032164779C9A /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DependencyInjector.swift; path = Libraries/com.unity.purchasing/Plugins/UnityPurchasing/iOS/SK2/DependencyInjector.swift; sourceTree = SOURCE_ROOT; };
-		135B440EB5817AAD75ADD6F2 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NotificationService.m; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios/notificationservice/NotificationService.m"; sourceTree = SOURCE_ROOT; };
+		135B440EB5817AAD75ADD6F2 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NotificationService.m; path = "/notificationservice/NotificationService.m"; sourceTree = SOURCE_ROOT; };
 		1474DA4D7B44DB6E68618883 /* Generics__72.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__72.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__72.cpp; sourceTree = SOURCE_ROOT; };
 		1492999617EA37FB6D4727C7 /* Assembly-CSharp__16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__16.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__16.cpp"; sourceTree = SOURCE_ROOT; };
 		14DB4F40CA2C1D0004C1F89C /* FBUnityUtility.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = FBUnityUtility.mm; path = Libraries/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm; sourceTree = SOURCE_ROOT; };
@@ -649,7 +649,7 @@
 		7502C4262FF3B84C8792BB67 /* Generics__89.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__89.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__89.cpp; sourceTree = SOURCE_ROOT; };
 		750BF4D08D860C9A70ACE432 /* System.Xml__12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml__12.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Xml__12.cpp; sourceTree = SOURCE_ROOT; };
 		75954FC5A3663951E6786128 /* Generics__50.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__50.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__50.cpp; sourceTree = SOURCE_ROOT; };
-		75C944A0884B1EE2618E114E /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationService.h; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios/notificationservice/NotificationService.h"; sourceTree = SOURCE_ROOT; };
+		75C944A0884B1EE2618E114E /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationService.h; path = "/notificationservice/NotificationService.h"; sourceTree = SOURCE_ROOT; };
 		76222A745535DF84E42714A0 /* FBSDKTournamentFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FBSDKTournamentFetcher.swift; path = Libraries/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift; sourceTree = SOURCE_ROOT; };
 		763AF87314F54F56F97D40D6 /* Generics__73.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__73.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__73.cpp; sourceTree = SOURCE_ROOT; };
 		7668404A969984B42DFC7ACC /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entitlements.entitlements; sourceTree = SOURCE_ROOT; };
@@ -866,10 +866,10 @@
 		A2562FA24FCA1F0C707324C8 /* UnityEngine.UnityWebRequestWWWModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UnityWebRequestWWWModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestWWWModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		A34734E12320BFE93D77614B /* Assembly-CSharp__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__5.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__5.cpp"; sourceTree = SOURCE_ROOT; };
 		A3503903C5CD5C55CF76E9AA /* Generics__125.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__125.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__125.cpp; sourceTree = SOURCE_ROOT; };
-		A371467CB3E977DC8B671EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios/notificationservice/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A371467CB3E977DC8B671EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = notificationservice/Info.plist; sourceTree = SOURCE_ROOT; };
 		A4591E5013E0219646DFFBD4 /* UnityEngine.GameCenterModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.GameCenterModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule.cpp; sourceTree = SOURCE_ROOT; };
 		A504EDDC3C17119152F24F7F /* GenericMethods__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__3.cpp; sourceTree = SOURCE_ROOT; };
-		A5EC4FF5A5677448E3C05768 /* KiemSonMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; name = KiemSonMobile.entitlements; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios/KiemSonMobile.entitlements"; sourceTree = SOURCE_ROOT; };
+		A5EC4FF5A5677448E3C05768 /* KiemSonMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; name = KiemSonMobile.entitlements; path = "/KiemSonMobile.entitlements"; sourceTree = SOURCE_ROOT; };
 		A6376FFF6904813A65DFCE0D /* Il2CppCCalculateFieldValues5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCCalculateFieldValues5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues5.cpp; sourceTree = SOURCE_ROOT; };
 		A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
 		A6FD1A41BCEDD91059351ABA /* Unity.Purchasing.Stores_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Purchasing.Stores_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Purchasing.Stores_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -3178,7 +3178,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3824,7 +3824,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3843,7 +3843,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4188,7 +4188,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_Ios\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
