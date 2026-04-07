@@ -3178,7 +3178,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "notificationservice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3824,7 +3824,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "notificationservice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3843,7 +3843,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "notificationservice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4188,7 +4188,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD";
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "\\notificationservice\\Info.plist";
+				INFOPLIST_FILE = "notificationservice/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
