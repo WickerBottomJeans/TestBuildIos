@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CADisableMinimumFrameDuration</key>
+    <false />
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <false />
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>KiếmSơnMobile</string>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>CFBundleIdentifier</key>
+    <string>${PRODUCT_BUNDLE_IDENTIFIER}</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+      <string>en</string>
+      <string>vi</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>KiếmSơnMobile</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.5</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.264972371031-etnr1p4f5l8ri7mo2vsl0o0b6jors129</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>facebook-unity-sdk</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb1916695992088499</string>
+        </array>
+      </dict>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>383</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>google</string>
+      <string>fbapi</string>
+      <string>fb-messenger-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>LSHasLocalizedDisplayName</key>
+    <true />
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>NSCameraUsageDescription</key>
+    <string>App use Micro </string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App use Micro </string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App use Micro </string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Dữ liệu của bạn sẽ được sử dụng để mang đến cho bạn trải nghiệm quảng cáo tốt hơn và được cá nhân hóa.</string>
+    <key>SKAdNetworkItems</key>
+    <array />
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+    </array>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>LaunchScreen-iPad</string>
+    <key>UILaunchStoryboardName~iphone</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipod</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UIPrerenderedIcon</key>
+    <false />
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+      <string>metal</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>UIRequiresPersistentWiFi</key>
+    <false />
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>UnityAddRemoteNotificationCapability</key>
+    <false />
+    <key>UnityAddTimeSensitiveEntitlement</key>
+    <true />
+    <key>UnityNotificationDefaultAuthorizationOptions</key>
+    <integer>7</integer>
+    <key>UnityNotificationRequestAuthorizationForRemoteNotificationsOnAppLaunch</key>
+    <false />
+    <key>UnityNotificationRequestAuthorizationOnAppLaunch</key>
+    <false />
+    <key>UnityRemoteNotificationForegroundPresentationOptions</key>
+    <integer>-1</integer>
+    <key>UnityUseAPSReleaseEnvironment</key>
+    <false />
+    <key>UnityUseLocationNotificationTrigger</key>
+    <false />
+    <key>FacebookAppID</key>
+    <string>1916695992088499</string>
+    <key>FacebookClientToken</key>
+    <string>2159544b5ff117159f98be7f857a80b7</string>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <true />
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <true />
+  </dict>
+</plist>

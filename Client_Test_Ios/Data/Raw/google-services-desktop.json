@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "264972371031",
+    "project_id": "kiem-son-mobile",
+    "storage_bucket": "kiem-son-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264972371031:ios:4aae6ad60a065faf810f12",
+        "android_client_info": {
+          "package_name": "vn.interits.KiemSonMobile"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1QcXkGaTLohDt5URpOaqniIyCSDksVSQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089013239204-vommnfbucbnv79dd0f8ek0bu9bpguqpc.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

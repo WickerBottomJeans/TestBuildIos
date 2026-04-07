@@ -1,0 +1,21 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '13.0'
+
+target 'UnityFramework' do
+  pod 'AppsFlyerFramework', '6.17.5'
+  pod 'FBSDKCoreKit', '~> 18.0.0'
+  pod 'FBSDKCoreKit_Basics', '~> 18.0.0'
+  pod 'FBSDKGamingServicesKit', '~> 18.0.0'
+  pod 'FBSDKLoginKit', '~> 18.0.0'
+  pod 'FBSDKShareKit', '~> 18.0.0'
+  pod 'Firebase/Analytics', '11.10.0'
+  pod 'Firebase/Core', '11.10.0'
+  pod 'Firebase/Messaging', '11.10.0'
+  pod 'Firebase/RemoteConfig', '11.10.0'
+  pod 'GoogleSignIn', '~> 5.0.0'
+  pod 'PurchaseConnector', '6.17.5'
+end
+target 'Unity-iPhone' do
+end
+use_frameworks!

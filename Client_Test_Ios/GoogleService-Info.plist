@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>264972371031-etnr1p4f5l8ri7mo2vsl0o0b6jors129.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.264972371031-etnr1p4f5l8ri7mo2vsl0o0b6jors129</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1QcXkGaTLohDt5URpOaqniIyCSDksVSQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>264972371031</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vn.interits.KiemSonMobile</string>
+	<key>PROJECT_ID</key>
+	<string>kiem-son-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kiem-son-mobile.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:264972371031:ios:4aae6ad60a065faf810f12</string>
+</dict>
+</plist>

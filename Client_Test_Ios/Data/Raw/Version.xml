@@ -1,0 +1,57 @@
+﻿<Config URL="https://dev.cdn.interits.vn/kiemsonmobile/">
+	<CdnUrl Url="https://dev.cdn.interits.vn/kiemsonmobile/" />
+	<Application VerText="Kiếm Sơn Mobile" VerCode="400" />
+	<Resource VerText="Kiếm Sơn Mobile" VerCode="128" />
+	<LoadingResourceScreen FileName="Data/Resources/UI/LoadingGame.unity3d"
+						   MD5="d74fd7ea64e7e39d0761f3593d8955582" />
+	<Store AppsIosUrl="https://testflight.apple.com/join/tq9fFAvA"
+		   AppsAndroidUrl="https://play.google.com/store/apps/details?id=vn.interits.KiemSonMobile"
+		   Msg="Đã có phiên bản mới. Vui lòng tải về và cài đè lên phiên bản hiện tại để có được trải nghiệm tốt nhất." />
+	<UpdateInfo PushVoiceUrl="https://account.interits.vn/api/voices"
+				GetVoiceUrl="https://account.interits.vn/api/voices"
+				ServerListUrl="https://account.interits.vn/api/kiemson/serverlist"
+				WriteUserLogInServerUrl="https://account.interits.vn/api/writelogin"
+				ServerListUrlBackUp="https://account.interits.vn/api/serverlist"
+				VerifyAccountSDK="https://account.interits.vn/api/verifyaccount"
+				LoginAccountSDK="https://account.interits.vn/api/login"
+				RegisterAccountSDK="https://account.interits.vn/api/register"
+				VerifyTransactionSDK="https://account.interits.vn/api/verifyreceipt"
+				DoWebCharge="https://account.interits.vn/api/charge/baokim/qr"
+				GetWebCharge="https://account.interits.vn/api/productsWeb" FileUpdateUrl="UpdateList.xml"
+				VerifyPhoneNumber="https://account.interits.vn/profile" EnableIAPIOS="true"
+				EnableIAPAndroid="true"
+				InForLastServerUrl="https://account.interits.vn/api/server/last-server-login"
+				VerifyPhoneNumberOTP="https://account.interits.vn/api/verify-zalo-zns-otp"
+				VerifyPhoneNumberIngame="https://account.interits.vn/api/initiate-phone-verification"
+				EnablePhoneVerify="true"/>
+</Config>
+
+<!--<Config URL="http://127.0.0.1/kiemsonmobile/">-->
+<!--<CdnUrl Url="http://127.0.0.1/kiemsonmobile/" />-->
+<!--<Application VerText="Kiếm Sơn Mobile" VerCode="400" />-->
+<!--<Resource VerText="Kiếm Sơn Mobile" VerCode="128" />-->
+<!--<LoadingResourceScreen FileName="Data/Resources/UI/LoadingGame.unity3d"-->
+<!--					   MD5="d74fd7ea64e7e39d0761f3593d8955582" />-->
+<!--<Store AppsIosUrl="https://testflight.apple.com/join/tq9fFAvA"-->
+<!--	   AppsAndroidUrl="https://play.google.com/store/apps/details?id=vn.interits.KiemSonMobile"-->
+<!--	   Msg="Đã có phiên bản mới. Vui lòng tải về và cài đè lên phiên bản hiện tại để có được trải nghiệm tốt nhất." />-->
+<!--<UpdateInfo PushVoiceUrl="https://account.interits.vn/api/voices"-->
+<!--			GetVoiceUrl="https://account.interits.vn/api/voices"-->
+<!--			ServerListUrl="https://account.interits.vn/api/kiemson/serverlist"-->
+<!--			WriteUserLogInServerUrl="https://account.interits.vn/api/writelogin"-->
+<!--			ServerListUrlBackUp="https://account.interits.vn/api/serverlist"-->
+<!--			VerifyAccountSDK="https://account.interits.vn/api/verifyaccount"-->
+<!--			LoginAccountSDK="https://account.interits.vn/api/login"-->
+<!--			RegisterAccountSDK="https://account.interits.vn/api/register"-->
+<!--			VerifyTransactionSDK="https://account.interits.vn/api/verifyreceipt"-->
+<!--			DoWebCharge="https://account.interits.vn/api/charge/baokim/qr"-->
+<!--			GetWebCharge="https://account.interits.vn/api/productsWeb" FileUpdateUrl="UpdateList.xml"-->
+<!--			VerifyPhoneNumber="https://account.interits.vn/profile" EnableIAPIOS="true"-->
+<!--			EnableIAPAndroid="true"-->
+<!--			InForLastServerUrl="https://account.interits.vn/api/server/last-server-login"-->
+<!--			VerifyPhoneNumberOTP="https://account.interits.vn/api/verify-zalo-zns-otp"-->
+<!--			VerifyPhoneNumberIngame="https://account.interits.vn/api/initiate-phone-verification"-->
+<!--			EnablePhoneVerify="true"/>-->
+<!--</Config>-->
+
+

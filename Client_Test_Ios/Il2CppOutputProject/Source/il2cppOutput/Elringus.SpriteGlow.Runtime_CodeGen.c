@@ -1,0 +1,116 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m80762FA873C614BD80E2F77F2E9ABD3F38F5B57F (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB7B3408E7405DBD169D07B778FE99A16228CA9B5 (void);
+extern void SpriteGlowEffect_get_Renderer_m06E56F02703636C071C46A605EA0F6FE2AD9D1B0 (void);
+extern void SpriteGlowEffect_set_Renderer_m86004495E319BA6EF99E98F5C85B6A55A7771A09 (void);
+extern void SpriteGlowEffect_get_GlowColor_m00CC0B1EC315839C9B87845E00C06DB4356498A3 (void);
+extern void SpriteGlowEffect_set_GlowColor_mCD82B26E56DEC79491DFAA4659B53ACC18C379F5 (void);
+extern void SpriteGlowEffect_get_GlowBrightness_m319BADCD3F68A1F1C9E63633D4A52CFAA8B56163 (void);
+extern void SpriteGlowEffect_set_GlowBrightness_mEC50E6DA1B5E47799026EF6375685813702DEE39 (void);
+extern void SpriteGlowEffect_get_AlphaThreshold_m8196BE40A08554D87668B6C0B948C078653FAB57 (void);
+extern void SpriteGlowEffect_set_AlphaThreshold_m53FA9DD45593A54B7FAC3F165F15F961AA9F74DF (void);
+extern void SpriteGlowEffect_get_EnableInstancing_mED7DE5F14910E745047C986B3D76E8DEA9F4FE57 (void);
+extern void SpriteGlowEffect_set_EnableInstancing_m8D4CC9948F154481AC1FD4C6BF7252E6E19832A4 (void);
+extern void SpriteGlowEffect_Awake_m870E0007F57B344F39BF72B22161122911E77BF8 (void);
+extern void SpriteGlowEffect_OnEnable_mBF76B510EE0E742DE00DD224AEEF7EF5A27488C8 (void);
+extern void SpriteGlowEffect_OnDisable_mAE11D85AC42E573ADA1CFBF03A5AEE901C9BF366 (void);
+extern void SpriteGlowEffect_OnValidate_m9C8788ABE8AE9D9253A1E69843AFA998F86C94F4 (void);
+extern void SpriteGlowEffect_Apply_m89F39B4D4CD69B04212B2E370E3C07F24CA26D19 (void);
+extern void SpriteGlowEffect_SetMaterialProperties_m37D02D86A7DDB1F54D415BB622135946A6FF4EDC (void);
+extern void SpriteGlowEffect__ctor_m00A5DC73466618CBDD501323B74B51F9742FB653 (void);
+extern void SpriteGlowEffect__cctor_m675DD96FCC10730167BFE2B167AB86132966B3B0 (void);
+extern void SpriteGlowMaterial_get_SpriteTexture_m58CC6B092A6CFDD4010147A43A16DBFCF358451F (void);
+extern void SpriteGlowMaterial_get_InstancingEnabled_mAC480223767CB8E69596343A0D48A11D8DD0F738 (void);
+extern void SpriteGlowMaterial__ctor_mC07C5EAEBECC6C043E40F0B4273D2B5882A90878 (void);
+extern void SpriteGlowMaterial_GetSharedFor_m28ECC45E5E720B41052BEE03970DA4297E61FFAA (void);
+extern void SpriteGlowMaterial__cctor_m4D17F654EEB7ACF813B39FED0AA9E11D0C85FCC7 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m80762FA873C614BD80E2F77F2E9ABD3F38F5B57F,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB7B3408E7405DBD169D07B778FE99A16228CA9B5,
+	SpriteGlowEffect_get_Renderer_m06E56F02703636C071C46A605EA0F6FE2AD9D1B0,
+	SpriteGlowEffect_set_Renderer_m86004495E319BA6EF99E98F5C85B6A55A7771A09,
+	SpriteGlowEffect_get_GlowColor_m00CC0B1EC315839C9B87845E00C06DB4356498A3,
+	SpriteGlowEffect_set_GlowColor_mCD82B26E56DEC79491DFAA4659B53ACC18C379F5,
+	SpriteGlowEffect_get_GlowBrightness_m319BADCD3F68A1F1C9E63633D4A52CFAA8B56163,
+	SpriteGlowEffect_set_GlowBrightness_mEC50E6DA1B5E47799026EF6375685813702DEE39,
+	SpriteGlowEffect_get_AlphaThreshold_m8196BE40A08554D87668B6C0B948C078653FAB57,
+	SpriteGlowEffect_set_AlphaThreshold_m53FA9DD45593A54B7FAC3F165F15F961AA9F74DF,
+	SpriteGlowEffect_get_EnableInstancing_mED7DE5F14910E745047C986B3D76E8DEA9F4FE57,
+	SpriteGlowEffect_set_EnableInstancing_m8D4CC9948F154481AC1FD4C6BF7252E6E19832A4,
+	SpriteGlowEffect_Awake_m870E0007F57B344F39BF72B22161122911E77BF8,
+	SpriteGlowEffect_OnEnable_mBF76B510EE0E742DE00DD224AEEF7EF5A27488C8,
+	SpriteGlowEffect_OnDisable_mAE11D85AC42E573ADA1CFBF03A5AEE901C9BF366,
+	SpriteGlowEffect_OnValidate_m9C8788ABE8AE9D9253A1E69843AFA998F86C94F4,
+	SpriteGlowEffect_Apply_m89F39B4D4CD69B04212B2E370E3C07F24CA26D19,
+	SpriteGlowEffect_SetMaterialProperties_m37D02D86A7DDB1F54D415BB622135946A6FF4EDC,
+	SpriteGlowEffect__ctor_m00A5DC73466618CBDD501323B74B51F9742FB653,
+	SpriteGlowEffect__cctor_m675DD96FCC10730167BFE2B167AB86132966B3B0,
+	SpriteGlowMaterial_get_SpriteTexture_m58CC6B092A6CFDD4010147A43A16DBFCF358451F,
+	SpriteGlowMaterial_get_InstancingEnabled_mAC480223767CB8E69596343A0D48A11D8DD0F738,
+	SpriteGlowMaterial__ctor_mC07C5EAEBECC6C043E40F0B4273D2B5882A90878,
+	SpriteGlowMaterial_GetSharedFor_m28ECC45E5E720B41052BEE03970DA4297E61FFAA,
+	SpriteGlowMaterial__cctor_m4D17F654EEB7ACF813B39FED0AA9E11D0C85FCC7,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	18345,
+	12932,
+	12762,
+	10383,
+	12642,
+	10267,
+	12836,
+	10455,
+	12836,
+	10455,
+	12640,
+	10264,
+	12932,
+	12932,
+	12932,
+	12932,
+	12932,
+	12932,
+	12932,
+	18327,
+	12762,
+	12640,
+	5967,
+	17781,
+	18327,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Elringus_SpriteGlow_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Elringus_SpriteGlow_Runtime_CodeGenModule = 
+{
+	"Elringus.SpriteGlow.Runtime.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
