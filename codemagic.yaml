@@ -11,7 +11,7 @@ workflows:
           # Fix the one broken entitlements path
           sed -i '' 's|path = "C:/.Dev/KiemSon_aNam/_BuildClient/IOS_ver3/KiemSonMobile.entitlements";|path = KiemSonMobile.entitlements;|g' "$PBXPROJ"
 
-          # Verify - should print nothing if fixed
+          # Verify
           echo ">> Checking for leftover Windows paths:"
           grep "C:/" "$PBXPROJ" && echo ">> WARNING: Windows paths still found!" || echo ">> Clean - no Windows paths found"
 
