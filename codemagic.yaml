@@ -7,21 +7,14 @@ workflows:
       - name: Fix Windows Paths & Setup Pods
         script: |
           PBXPROJ="Client_Test_Ios/Unity-iPhone.xcodeproj/project.pbxproj"
-          
-          # Fix forward-slash version of the Windows path
-          sed -i '' 's|C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/||g' "$PBXPROJ"
-          
-          # Fix backslash version (escaped for sed)
-          sed -i '' 's|C:\\\.Dev\\KiemSon_aNam\\_BuildClient\\Client_Test_IOS_ver2\\||g' "$PBXPROJ"
-          
-          # Normalize any remaining backslashes to forward slashes
-          sed -i '' 's|\\\\|/|g' "$PBXPROJ"
-          sed -i '' 's|\\|/|g' "$PBXPROJ"
-          
-          # Verify the fix worked - should return empty if path is gone
+
+          # Fix the one broken entitlements path
+          sed -i '' 's|path = "C:/.Dev/KiemSon_aNam/_BuildClient/IOS_ver3/KiemSonMobile.entitlements";|path = KiemSonMobile.entitlements;|g' "$PBXPROJ"
+
+          # Verify - should print nothing if fixed
           echo ">> Checking for leftover Windows paths:"
-          grep "C:/" "$PBXPROJ" || echo ">> Clean - no Windows paths found"
-          
+          grep "C:/" "$PBXPROJ" && echo ">> WARNING: Windows paths still found!" || echo ">> Clean - no Windows paths found"
+
           cd Client_Test_Ios
           chmod +x MapFileParser.sh
           chmod +x MapFileParser.py
@@ -30,7 +23,7 @@ workflows:
       - name: Build IPA from Xcode Workspace
         script: |
           cd Client_Test_Ios
-          
+
           xcodebuild -workspace Unity-iPhone.xcworkspace \
             -scheme Unity-iPhone \
             -configuration Release \
@@ -40,16 +33,16 @@ workflows:
             CODE_SIGNING_REQUIRED=NO \
             DEVELOPMENT_TEAM="" \
             build
-          
+
           APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" -path "*/Release-iphoneos/*" | grep -v ".appex" | head -n 1)
-          
+
           if [ -z "$APP_PATH" ]; then
             echo "ERROR: No .app found"
             exit 1
           fi
-          
+
           echo "Found: $APP_PATH"
-          
+
           cd $CM_BUILD_DIR
           rm -rf Payload
           mkdir Payload
