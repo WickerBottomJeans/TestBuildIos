@@ -13,7 +13,6 @@
 		0FDDDE7A4A7BF0BB8E9A100A /* GPMWebViewPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE06E4B7BD43C9F357E124C /* GPMWebViewPlugin.h */; };
 		1152CF8C137DE04309516528 /* GpmCommunicatorMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F406FF7D659F06A4CFAAB4C /* GpmCommunicatorMessage.mm */; };
 		1275C7D8BF0C658F6746C692 /* TransactionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE2614CCDFB0B90EFF4C612 /* TransactionUseCase.swift */; };
-		1763428BB31B2266F0597E00 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA64156AA661DF28857B1C2 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1810063E942D118EA4348D0E /* SubscriptionInfoStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306D15332058D191C1E2EE4 /* SubscriptionInfoStatusResponse.swift */; };
 		1A8BC6645C4E9D09FC15AEA0 /* UnityNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B62D936329D31FD4C60205B /* UnityNotificationManager.h */; };
 		1D45A5CCCCC4E76191AAF1D0 /* libil2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE54DC7E56FA015DDC9659BD /* libil2cpp.a */; };
@@ -25,7 +24,6 @@
 		2C36D4A9BF5C78DCD8508A3E /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECD111EC902A3E32FC4456 /* ProductDetails.swift */; };
 		3004B6BB9A8CA28EC9A5D320 /* RenewalInfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8C1C3367DD4C3C6BD33F1 /* RenewalInfoDetails.swift */; };
 		3598E7759D43D02551FA8A9E /* libFirebaseCppRemoteConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B92800BB74A5163021D31E07 /* libFirebaseCppRemoteConfig.a */; };
-		385E41C9B69A354E437E6AE5 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA64156AA661DF28857B1C2 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		38B5C9F93391919B50DBFA29 /* UnityNotificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCE5A2FFDF4C772570B7EDA /* UnityNotificationData.h */; };
 		38E18E2C10769198DC991A39 /* UnityStoreKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08817BE752A5FE597958B95 /* UnityStoreKitPlugin.swift */; };
 		39FA372415B7809D49617A9E /* HotfixFlags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF0F359B518647C917D180 /* HotfixFlags.cpp */; };
@@ -41,14 +39,11 @@
 		43303305CEED47A1A79F08C1 /* GoogleSignIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A45A67874E7EF97753A16 /* GoogleSignIn.mm */; };
 		4341F98D5F376910CD7F2C8E /* libFirebaseCppAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0819ED6FB58563E092F6A63D /* libFirebaseCppAnalytics.a */; };
 		44A4785AEAD27D464ADA75D3 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9918F1B10C0F7B0C89CB35 /* StringExtensions.swift */; };
-		47264E5984E5F519A2B41649 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A840DC8D77F4D78F13FA04 /* NotificationCenter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		475B26F38A3A652C6174529D /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 679ACDCF6D14CA6FE6F81479 /* IUnityInterface.h */; };
 		4A0B8CEEA9B6745EA2927163 /* AppsFlyeriOSWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = E20606EC5E0A50379E3FE576 /* AppsFlyeriOSWrapper.mm */; };
 		4AF8EE5A3A227D8C885CB90E /* SkAdNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B08F0FF1A380B86D85F1F546 /* SkAdNetworkManager.m */; };
-		4B034514A5AC8439332091C2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2994124BCA8FC2A424FB7FF /* StoreKit.framework */; };
 		4C68E2FC674804E5ED3DE6EF /* AppsFlyer+AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F38DDFC52D92FB5F10CF /* AppsFlyer+AppController.m */; };
 		4D70991B02291F5B7ABF8F42 /* GPMWebViewPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD0DAB77145BF9F65F3BA6 /* GPMWebViewPlugin.mm */; };
-		50E84E5A925ACAF7D26CE8C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47744017A955CF1E506B0765 /* GoogleService-Info.plist */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
@@ -57,7 +52,7 @@
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ECD27EDF8EB21168769097 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		57A547DA5EC9D35C1B1A96B9 /* TransactionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDC4A4274534A15DFBF15E /* TransactionResponse.swift */; };
-		59184FF3A9FFB10362E704D8 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69461AABE094B1B9C20BA5 /* Dummy.swift */; };
+		5980461899E00663ACF19BA7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60334BDCA5701F538CA93EBD /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6129FE8FD4A621477A28A259 /* StoreKitCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A5F11EFA23A268CBF59EA /* StoreKitCallback.swift */; };
 		63ACF7178776C648B96974EB /* baselib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD8D832DF5E49F3229DE515 /* baselib.a */; };
 		64057BD0BA3A6F381E486AAE /* GPMMessageReceiver.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4434900B7957748A1A4D2A3 /* GPMMessageReceiver.mm */; };
@@ -75,13 +70,13 @@
 		7F4E05AB2717219200A2CBE4 /* libGameAssembly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4E05A02717216D00A2CBE4 /* libGameAssembly.a */; };
 		8098043D64A95FD89C14FDA4 /* FBUnityInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3198141F7328C3CE54D2DFDF /* FBUnityInterface.mm */; };
 		826E40C67FAA509B29A0EFA3 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 30347B5D7991A325732A4F10 /* IUnityGraphics.h */; };
+		844B4C7EB45B8B43DB25F2B6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD4CCBBE87F77D5C3644A0 /* StoreKit.framework */; };
 		84EF66B01D9FB668DCFB0E99 /* SubscriptionInfoStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E4ADD02BAB225DA524F13 /* SubscriptionInfoStatus.swift */; };
 		8524532214B94F7FBEE47E1F /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927EF2C5B2EE9ABEE3201EB3 /* StoreKitManager.swift */; };
 		862C245020AEC7AC006FB4AD /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */; };
 		8A20382D213D4B3C005E6C56 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20382C213D4B3C005E6C56 /* AVKit.framework */; };
 		8A215703245064AA00E582EB /* NoGraphicsHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BC6DE245061EE00C7C97D /* NoGraphicsHelper.mm */; };
 		8A3831B5246956AA00CD74FD /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3831B4246956AA00CD74FD /* Metal.framework */; };
-		8BB84792BF86D81EDBF13008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47744017A955CF1E506B0765 /* GoogleService-Info.plist */; };
 		8BEDFA3929C88F86007F26D7 /* UnityViewControllerBase+visionOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEDFA3729C88F86007F26D7 /* UnityViewControllerBase+visionOS.h */; };
 		8BEDFA3A29C88F86007F26D7 /* UnityViewControllerBase+visionOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDFA3829C88F86007F26D7 /* UnityViewControllerBase+visionOS.mm */; };
 		8D46853F0C87DEE4CE51452D /* GoogleSignInAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FCE9E706EEE6120B694E7DE /* GoogleSignInAppController.mm */; };
@@ -92,7 +87,6 @@
 		96973B3981DD32A4D13BB1FC /* UnityNotificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA36A70E32D12A3247A7ACD /* UnityNotificationData.m */; };
 		969CE06F21B5A764246B34DF /* AppsFlyerAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34F74ED9633B5CA7F151BD0D /* AppsFlyerAppController.mm */; };
 		974B8171B4EF541173ABA3A9 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF8A65143653D787C3A92D /* GameKit.framework */; };
-		9B5E4B0A8A59BF09313D972D /* notificationservice.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60C84A869B2B202643DC1A2F /* notificationservice.appex */; };
 		9C5DFC33E3726BD5F98CCEAE /* PurchaseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05F454A09D7F7AF541083C /* PurchaseDetails.swift */; };
 		9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */; };
 		9D25ABA1213FB47800354C27 /* UnityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D25AB9F213FB47800354C27 /* UnityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -158,16 +152,15 @@
 		9DC67E8921CBBEDF005F9FA1 /* LifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A292A9717992CE100409BA4 /* LifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DFA7F9D21410F2E00C2880E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		9E277B346B541C2D072C5489 /* IUnityGraphicsMetal.h in Headers */ = {isa = PBXBuildFile; fileRef = 894C1B251937BE1BC2B4D36C /* IUnityGraphicsMetal.h */; };
-		A1494312B4D3BA84396F6C35 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CA4E26A121DF54B028C24A /* AuthenticationServices.framework */; };
 		A3242D0FB566A29CE9AE4E74 /* AppsFlyerAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = A029B6E5DCE68A6819497EFB /* AppsFlyerAttribution.h */; };
 		A69E55F6C9BA93821919E7D3 /* AppleAuthSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF342DB41922F639897886E /* AppleAuthSerializer.m */; };
 		A9EA7FF91A5FBD41725E42BA /* RenewalStateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B952E910D0136C3DD0BAD /* RenewalStateExtensions.swift */; };
 		AD918FA6F4D43172027ADA24 /* FBSDKTournamentUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8FD649ACE825DE9A5551FE /* FBSDKTournamentUpdater.swift */; };
 		AF2786F2943EBE0A756F21CC /* NSUserDefaults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B6D2D12B065A216EB6E1F /* NSUserDefaults.mm */; };
+		B0C64FB187F834D7DAF72AEB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD4CCBBE87F77D5C3644A0 /* StoreKit.framework */; };
 		B47921803B74BF2D1B121602 /* GPMWebViewMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = DD46C19086171F92963E93B3 /* GPMWebViewMessage.mm */; };
-		BD0C4C378741BB2A5DB6D0F1 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB564096A5E1214D4BA89B75 /* NotificationService.m */; };
+		BBE34C388B4B1C99D5D22033 /* GPMWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36F7B6FB2119FE0B00FC2B67 /* GPMWebView.bundle */; };
 		BEE3E21D322649C83B0DD4DC /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */; };
-		BF5E418EA721982BB96AD8E6 /* GPMWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36F7B6FB2119FE0B00FC2B67 /* GPMWebView.bundle */; };
 		BFD23B32620532721A80653B /* SubscriptionInfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EFA0009CC7D7F39083BB6C /* SubscriptionInfoDetails.swift */; };
 		C07FE95FDD68FD4956A6E062 /* PurchaseProductStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AB5C61531398D4790CF4A /* PurchaseProductStatus.swift */; };
 		C3B1123CE7FBB5DC2E70380E /* GPMCommunicatorPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38A4EC0053E991E4DFD30B07 /* GPMCommunicatorPlugin.mm */; };
@@ -187,10 +180,8 @@
 		D135BBFCE0C73BDA1B2EDD92 /* PeriodUnitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F822AF6884A9939F702F8354 /* PeriodUnitExtensions.swift */; };
 		D38D80327FEB22728CB28556 /* GPMCommunicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0CE7FF3CB9F3005537BD7F /* GPMCommunicator.h */; };
 		D44D62DE0C6876886D5F5341 /* GPMWebViewJsonUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07B8215C819669056C67573D /* GPMWebViewJsonUtil.mm */; };
-		D6144359B25857D0EF3FA84E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB44A70AB90B1B32BC7964B /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D8F8D2B01F50EF9FB6231C0F /* GPMWebViewMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A71ACF5F072576BCE5B89E8 /* GPMWebViewMessage.h */; };
 		D9B2B6DD21A52DABBBE69B51 /* TrackingAuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90F2FEBEE32B020C3F69E3A /* TrackingAuthorizationManager.m */; };
-		E14C47138B8E4840E6D0193E /* NotificationService.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C3640C49CF561965D638A37 /* NotificationService.h */; };
 		E58B0523150CF74ECD768786 /* UnityNotificationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE02BCC6F60CA4278D745C3 /* UnityNotificationWrapper.m */; };
 		E5D56C8590596A27ABCFF64F /* libxlua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8427D10395118E8EEE56CE76 /* libxlua.a */; };
 		E636C0F4D1B75B2B1E94D750 /* PreferredLanguages.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFC96E722B2680A2BAD27072 /* PreferredLanguages.mm */; };
@@ -200,9 +191,7 @@
 		E93AE04947CFE2A95C5A5A7D /* GoogleSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0DA26780E0022D828B7097 /* GoogleSignIn.h */; };
 		E9A87C8B7823ECF9F276A006 /* FBUnitySDKDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1742A7BB3B902FE42287C2 /* FBUnitySDKDelegate.m */; };
 		EA2DB38D7F417491B78327D6 /* GoogleSignInAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF67A14BC088CC285004553 /* GoogleSignInAppController.h */; };
-		EC8C4F86AA32444A20D78F8B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2994124BCA8FC2A424FB7FF /* StoreKit.framework */; };
 		ED945266A1708B7ADAB4BB52 /* xlua.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D56CC8D4B299D17B73E34 /* xlua.bundle */; };
-		EF0D48E7848C8C8F4ADFB602 = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		F1F9F7BCFD17685E62D9161A /* GpmCommunicatorReceiver.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2D1D12F4378ED7F3DED4D8E /* GpmCommunicatorReceiver.mm */; };
 		F218E2351810DBC21CC7D9D6 /* ResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D89CF7C0967DA56F1302EF /* ResponseProtocol.swift */; };
 		F25B68C630E02C8823B0516E /* AppleAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184131325EBE7148C053B9C /* AppleAuthManager.m */; };
@@ -238,13 +227,6 @@
 			remoteGlobalIDString = 9D25AB9C213FB47800354C27;
 			remoteInfo = UnityFramework;
 		};
-		E25D4D4A83F1588B6B30B92F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 170143AA8F6C4D83A71D7155;
-			remoteInfo = notificationservice;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -277,17 +259,6 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE094A2EA103869AA751E26A /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				9B5E4B0A8A59BF09313D972D /* notificationservice.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -299,7 +270,6 @@
 		00AF9325EF5C8CEE6F0D70C2 /* Unity.RenderPipelines.Core.Runtime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Core.Runtime.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Core.Runtime.cpp; sourceTree = SOURCE_ROOT; };
 		01542E4A7351BF537D5F9A2D /* UnityEngine.TextCoreTextEngineModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TextCoreTextEngineModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp; sourceTree = SOURCE_ROOT; };
 		018D9E5B98FCE6DE828C9739 /* Facebook.Unity.Settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Facebook.Unity.Settings.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Facebook.Unity.Settings.cpp; sourceTree = SOURCE_ROOT; };
-		01CA4E26A121DF54B028C24A /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		0200DFD8558AF7C1D58227FD /* Generics__124.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__124.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__124.cpp; sourceTree = SOURCE_ROOT; };
 		0301677CC7550488E929C3E6 /* Generics__131.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__131.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__131.cpp; sourceTree = SOURCE_ROOT; };
 		032E4BA57CA6861E6D3B980A /* Unity.Services.PushNotifications.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Services.PushNotifications.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Services.PushNotifications.cpp; sourceTree = SOURCE_ROOT; };
@@ -367,7 +337,6 @@
 		18102C3089613DF3F62D6649 /* spine-unity__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "spine-unity__2.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/spine-unity__2.cpp"; sourceTree = SOURCE_ROOT; };
 		1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalHelper.mm; sourceTree = "<group>"; };
 		18722E8DED8C05D81DEA9F60 /* Firebase.Analytics_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Firebase.Analytics_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Firebase.Analytics_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		18964D929145833A64417005 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entitlements.entitlements; sourceTree = SOURCE_ROOT; };
 		18C2DA2269DDF3862E09DE6E /* Generics__36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__36.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__36.cpp; sourceTree = SOURCE_ROOT; };
 		18CB22E6FEDFC242DF4C9630 /* Facebook.Unity_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Facebook.Unity_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Facebook.Unity_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1925CC593FB878EFA0E491D4 /* Generics__95.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__95.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__95.cpp; sourceTree = SOURCE_ROOT; };
@@ -377,9 +346,7 @@
 		1A2943258A7E83937FEE769C /* Firebase.RemoteConfig_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Firebase.RemoteConfig_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Firebase.RemoteConfig_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1B5271DA25CC858386B994E6 /* Firebase.Messaging_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Firebase.Messaging_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Firebase.Messaging_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1B92F201E0C11B4944DF0F0B /* System.Runtime.Serialization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Runtime.Serialization.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization.cpp; sourceTree = SOURCE_ROOT; };
-		1C3640C49CF561965D638A37 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationService.h; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/notificationservice/NotificationService.h"; sourceTree = SOURCE_ROOT; };
 		1C3F27E9009F948E3EC03458 /* System.Xml__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Xml__5.cpp; sourceTree = SOURCE_ROOT; };
-		1C69461AABE094B1B9C20BA5 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D4F5F3EC41EFCB9F59CC481 /* Unity.Services.Core.Internal_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Services.Core.Internal_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Services.Core.Internal_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -426,7 +393,6 @@
 		2ACC076DC2A88806A7A2E07F /* Generics__75.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__75.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__75.cpp; sourceTree = SOURCE_ROOT; };
 		2ADDC4A4274534A15DFBF15E /* TransactionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionResponse.swift; path = Libraries/com.unity.purchasing/Plugins/UnityPurchasing/iOS/SK2/Responses/TransactionResponse.swift; sourceTree = SOURCE_ROOT; };
 		2B422D1DE14C2A8D3F21065A /* UnityEngine.UIElementsModule__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__1.cpp; sourceTree = SOURCE_ROOT; };
-		2BB44A70AB90B1B32BC7964B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		2BCFF7AAB07F012FD2E34C5B /* mscorlib__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__2.cpp; sourceTree = SOURCE_ROOT; };
 		2BEDAA3AFB931C1E1C406501 /* mscorlib__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__3.cpp; sourceTree = SOURCE_ROOT; };
 		2CF2C9F347CC18CE3C51BF59 /* Unity.Purchasing.Apple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Purchasing.Apple.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Purchasing.Apple.cpp; sourceTree = SOURCE_ROOT; };
@@ -508,7 +474,6 @@
 		46D7F0219796DB59D3B54049 /* UnityEngine.VFXModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.VFXModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VFXModule.cpp; sourceTree = SOURCE_ROOT; };
 		470F4DBFC6CF22AFB4920379 /* mscorlib_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = mscorlib_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		4731C5266AFA863C29647599 /* System__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System__8.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System__8.cpp; sourceTree = SOURCE_ROOT; };
-		47744017A955CF1E506B0765 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		47A43E6546DABAEA781AD71C /* Unity.Mathematics_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Mathematics_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Mathematics_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		489B743989EEF3955BDA2C20 /* Generics__23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__23.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__23.cpp; sourceTree = SOURCE_ROOT; };
 		497743C4CA4E12AC91E5C865 /* Unity.Purchasing_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Purchasing_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Purchasing_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -582,7 +547,7 @@
 		5FE2614CCDFB0B90EFF4C612 /* TransactionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionUseCase.swift; path = Libraries/com.unity.purchasing/Plugins/UnityPurchasing/iOS/SK2/UseCases/TransactionUseCase.swift; sourceTree = SOURCE_ROOT; };
 		5FF83838D69C077E2754655C /* AppsFlyeriOSWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppsFlyeriOSWrapper.h; path = Libraries/AppsFlyer/Plugins/iOS/AppsFlyeriOSWrapper.h; sourceTree = SOURCE_ROOT; };
 		6031C7DD96C4F54D53882D62 /* Assembly-CSharp-firstpass__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp-firstpass__5.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp-firstpass__5.cpp"; sourceTree = SOURCE_ROOT; };
-		60C84A869B2B202643DC1A2F /* notificationservice.appex */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.app-extension"; path = notificationservice.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		60334BDCA5701F538CA93EBD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		60E42F56169003D0532A4372 /* zlib.net__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = zlib.net__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/zlib.net__1.cpp; sourceTree = SOURCE_ROOT; };
 		61644B28313FCE72AA0F7731 /* Il2CppReversePInvokeWrapperTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppReversePInvokeWrapperTable.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp; sourceTree = SOURCE_ROOT; };
 		61665816DE697E90662DC8EF /* Firebase.App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Firebase.App.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Firebase.App.cpp; sourceTree = SOURCE_ROOT; };
@@ -623,7 +588,6 @@
 		6C3739FB211A65D86348E15E /* Assembly-CSharp-firstpass__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp-firstpass__8.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp-firstpass__8.cpp"; sourceTree = SOURCE_ROOT; };
 		6C69DE30C94E61A29C61EB8B /* spine-unity__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "spine-unity__1.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/spine-unity__1.cpp"; sourceTree = SOURCE_ROOT; };
 		6C99A44F66C73E750E118091 /* Unity.Localization_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Localization_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Localization_CodeGen.c; sourceTree = SOURCE_ROOT; };
-		6CA64156AA661DF28857B1C2 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		6CF342DB41922F639897886E /* AppleAuthSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppleAuthSerializer.m; path = Libraries/AppleAuth/Native/iOS/AppleAuthSerializer.m; sourceTree = SOURCE_ROOT; };
 		6D100D31A5258D5757D1271A /* UnityEngine.UIElementsModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule.cpp; sourceTree = SOURCE_ROOT; };
 		6D7C86B1CC2B4805793D9556 /* Elringus.SpriteGlow.Runtime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Elringus.SpriteGlow.Runtime.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Elringus.SpriteGlow.Runtime.cpp; sourceTree = SOURCE_ROOT; };
@@ -865,9 +829,7 @@
 		A2562FA24FCA1F0C707324C8 /* UnityEngine.UnityWebRequestWWWModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UnityWebRequestWWWModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestWWWModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		A34734E12320BFE93D77614B /* Assembly-CSharp__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__5.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__5.cpp"; sourceTree = SOURCE_ROOT; };
 		A3503903C5CD5C55CF76E9AA /* Generics__125.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__125.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__125.cpp; sourceTree = SOURCE_ROOT; };
-		A40A41D0AA5AACF6535FEF6D /* vi */ = {isa = PBXFileReference; lastKnownFileType = file; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		A4591E5013E0219646DFFBD4 /* UnityEngine.GameCenterModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.GameCenterModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.GameCenterModule.cpp; sourceTree = SOURCE_ROOT; };
-		A50446109912790914FD0B95 /* KiemSonMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; name = KiemSonMobile.entitlements; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/KiemSonMobile.entitlements"; sourceTree = SOURCE_ROOT; };
 		A504EDDC3C17119152F24F7F /* GenericMethods__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__3.cpp; sourceTree = SOURCE_ROOT; };
 		A6376FFF6904813A65DFCE0D /* Il2CppCCalculateFieldValues5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCCalculateFieldValues5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues5.cpp; sourceTree = SOURCE_ROOT; };
 		A6444ABDD2799CC877EBAF7E /* LaunchScreen-iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
@@ -895,7 +857,6 @@
 		AB21F1BDDFE6422F7FDC2A2C /* Generics__97.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__97.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__97.cpp; sourceTree = SOURCE_ROOT; };
 		AB2BF8F7BAFBE6886580905D /* mscorlib__22.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__22.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__22.cpp; sourceTree = SOURCE_ROOT; };
 		AB3BD440282B7832E28896A1 /* VolumeIOSPlugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = VolumeIOSPlugin.mm; path = Libraries/com.unity.services.analytics/Runtime/Plugins/iOS/VolumeIOSPlugin.mm; sourceTree = SOURCE_ROOT; };
-		AB564096A5E1214D4BA89B75 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NotificationService.m; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/notificationservice/NotificationService.m"; sourceTree = SOURCE_ROOT; };
 		AB75095654BA52FDE1305358 /* Assembly-CSharp-firstpass__9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp-firstpass__9.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp-firstpass__9.cpp"; sourceTree = SOURCE_ROOT; };
 		ABF66CEE0A3ACFFBDA78140E /* UnityEngine.UIElementsModule__12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule__12.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__12.cpp; sourceTree = SOURCE_ROOT; };
 		AC89310F63E68096FA2F84D1 /* AppleAuth_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = AppleAuth_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/AppleAuth_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -1035,6 +996,7 @@
 		D9AC6836413CDFEB9D3D4DCA /* UnityEngine.UnityAnalyticsModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UnityAnalyticsModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp; sourceTree = SOURCE_ROOT; };
 		D9D89CF7C0967DA56F1302EF /* ResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResponseProtocol.swift; path = Libraries/com.unity.purchasing/Plugins/UnityPurchasing/iOS/SK2/Responses/ResponseProtocol.swift; sourceTree = SOURCE_ROOT; };
 		DA1731C322C733D4F9215478 /* UnityEngine.AnimationModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AnimationModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule.cpp; sourceTree = SOURCE_ROOT; };
+		DB634ED290912398377358E3 /* KiemSonMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; name = KiemSonMobile.entitlements; path = "C:/.Dev/KiemSon_aNam/_BuildClient/IOS_ver3/KiemSonMobile.entitlements"; sourceTree = SOURCE_ROOT; };
 		DB88045514EBA3611759BAB0 /* Assembly-CSharp__39.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__39.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__39.cpp"; sourceTree = SOURCE_ROOT; };
 		DC1C002DA32AACE7AD91663B /* GenericMethods__9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__9.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__9.cpp; sourceTree = SOURCE_ROOT; };
 		DC641E85B09D087E3E294418 /* GenericMethods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods.cpp; sourceTree = SOURCE_ROOT; };
@@ -1068,7 +1030,6 @@
 		E6DD1EF92C698A076367A202 /* Generics__40.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__40.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__40.cpp; sourceTree = SOURCE_ROOT; };
 		E79F4C19A708A497C9443FB8 /* Assembly-CSharp__20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__20.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__20.cpp"; sourceTree = SOURCE_ROOT; };
 		E7A948F9CC079AAED91E6AF4 /* Generics__81.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__81.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__81.cpp; sourceTree = SOURCE_ROOT; };
-		E8054AEF97C62610C6CF1B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/notificationservice/Info.plist"; sourceTree = SOURCE_ROOT; };
 		E84174247060C091F9A14855 /* Unity.Purchasing.Stores.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Purchasing.Stores.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Purchasing.Stores.cpp; sourceTree = SOURCE_ROOT; };
 		E8A3C67A913D9E240397EFB1 /* UnityEngine.UIElementsModule__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule__4.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__4.cpp; sourceTree = SOURCE_ROOT; };
 		E8E6BB924BD5BB712770450E /* System.Data__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Data__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.Data__1.cpp; sourceTree = SOURCE_ROOT; };
@@ -1093,14 +1054,12 @@
 		F02A78402345158DB659E78E /* UnityEngine.AudioModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.AudioModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		F0631E5BE56BD00723DA11F0 /* spine-unity__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "spine-unity__4.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/spine-unity__4.cpp"; sourceTree = SOURCE_ROOT; };
 		F09919364E13EC87792FCBE3 /* Unity.TextMeshPro__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.TextMeshPro__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.TextMeshPro__5.cpp; sourceTree = SOURCE_ROOT; };
-		F0A840DC8D77F4D78F13FA04 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		F103AF1CC7D2D96E788D51D7 /* Assembly-CSharp__30.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__30.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__30.cpp"; sourceTree = SOURCE_ROOT; };
 		F1F28F611D1E7EE7CCC25F71 /* mscorlib__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__1.cpp; sourceTree = SOURCE_ROOT; };
 		F228AA0BA44EF0644570FCB8 /* Unity.Notifications.iOS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Notifications.iOS.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Notifications.iOS.cpp; sourceTree = SOURCE_ROOT; };
 		F24B06F17D255CA359EB4840 /* UnityEngine.SpriteShapeModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.SpriteShapeModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		F27602E50928CB7AA165B5C9 /* LiteNetLib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LiteNetLib.cpp; path = Il2CppOutputProject/Source/il2cppOutput/LiteNetLib.cpp; sourceTree = SOURCE_ROOT; };
 		F27E3C588D3E1ED6B5291217 /* GPMCommunicator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GPMCommunicator.mm; path = Libraries/GPM/Communicator/Plugins/IOS/GpmCommunicatorPlugin/Internal/GPMCommunicator.mm; sourceTree = SOURCE_ROOT; };
-		F2994124BCA8FC2A424FB7FF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F2D1D12F4378ED7F3DED4D8E /* GpmCommunicatorReceiver.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = GpmCommunicatorReceiver.mm; path = Libraries/GPM/Communicator/Plugins/IOS/GpmCommunicatorPlugin/Interface/GpmCommunicatorReceiver.mm; sourceTree = SOURCE_ROOT; };
 		F2E4BD281D8D2761198E3AA0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = PrivacyInfo.xcprivacy; name = PrivacyInfo.xcprivacy; path = UnityFramework/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 		F2E5D9A741FB7ADF7324BC5B /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System.cpp; sourceTree = SOURCE_ROOT; };
@@ -1119,6 +1078,7 @@
 		F6CDB022FB8DC8CFB499BE10 /* Generics__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__3.cpp; sourceTree = SOURCE_ROOT; };
 		F7009D573870D05C66B7A11A /* gpm_communicator_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gpm_communicator_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/gpm_communicator_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		F71D46E059E3033CDB0FB398 /* Unity.RenderPipelines.Universal.Runtime__7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.RenderPipelines.Universal.Runtime__7.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__7.cpp; sourceTree = SOURCE_ROOT; };
+		F7AD4CCBBE87F77D5C3644A0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F7B9CB2246993CC9923F6456 /* Assembly-CSharp__33.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__33.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__33.cpp"; sourceTree = SOURCE_ROOT; };
 		F7E6B40EFDCF5B03435976EA /* Generics__129.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__129.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__129.cpp; sourceTree = SOURCE_ROOT; };
 		F7F2599B7A76BDAC54FDCB60 /* UnityEngine.AndroidJNIModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.AndroidJNIModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule.cpp; sourceTree = SOURCE_ROOT; };
@@ -1154,17 +1114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8C4F86AA32444A20D78F8B /* StoreKit.framework in Frameworks */,
-				D6144359B25857D0EF3FA84E /* Accelerate.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EF44ED4BF95CC2760BFBD25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47264E5984E5F519A2B41649 /* NotificationCenter.framework in Frameworks */,
-				1763428BB31B2266F0597E00 /* UserNotifications.framework in Frameworks */,
+				844B4C7EB45B8B43DB25F2B6 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,9 +1168,8 @@
 				63ACF7178776C648B96974EB /* baselib.a in Frameworks */,
 				974B8171B4EF541173ABA3A9 /* GameKit.framework in Frameworks */,
 				574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */,
-				385E41C9B69A354E437E6AE5 /* UserNotifications.framework in Frameworks */,
-				4B034514A5AC8439332091C2 /* StoreKit.framework in Frameworks */,
-				A1494312B4D3BA84396F6C35 /* AuthenticationServices.framework in Frameworks */,
+				5980461899E00663ACF19BA7 /* UserNotifications.framework in Frameworks */,
+				B0C64FB187F834D7DAF72AEB /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,7 +1232,6 @@
 				5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */,
 				9D25AB9D213FB47800354C27 /* UnityFramework.framework */,
 				7F4E05A02717216D00A2CBE4 /* libGameAssembly.a */,
-				60C84A869B2B202643DC1A2F /* notificationservice.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1315,12 +1263,7 @@
 				5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */,
 				1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */,
 				681AA63C19788ACA381FB8C1 /* LaunchScreen-iPhonePortrait.png */,
-				A50446109912790914FD0B95 /* KiemSonMobile.entitlements */,
-				7E404EF1B222E126B74FF459 /* notificationservice */,
-				5623C57B17FDCB0900090B9E /* InfoPlist.strings */,
-				18964D929145833A64417005 /* Entitlements.entitlements */,
-				47744017A955CF1E506B0765 /* GoogleService-Info.plist */,
-				1C69461AABE094B1B9C20BA5 /* Dummy.swift */,
+				DB634ED290912398377358E3 /* KiemSonMobile.entitlements */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1351,11 +1294,8 @@
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
 				9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */,
-				6CA64156AA661DF28857B1C2 /* UserNotifications.framework */,
-				F2994124BCA8FC2A424FB7FF /* StoreKit.framework */,
-				F0A840DC8D77F4D78F13FA04 /* NotificationCenter.framework */,
-				01CA4E26A121DF54B028C24A /* AuthenticationServices.framework */,
-				2BB44A70AB90B1B32BC7964B /* Accelerate.framework */,
+				60334BDCA5701F538CA93EBD /* UserNotifications.framework */,
+				F7AD4CCBBE87F77D5C3644A0 /* StoreKit.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -2262,16 +2202,6 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		7E404EF1B222E126B74FF459 /* notificationservice */ = {
-			isa = PBXGroup;
-			children = (
-				1C3640C49CF561965D638A37 /* NotificationService.h */,
-				AB564096A5E1214D4BA89B75 /* NotificationService.m */,
-				E8054AEF97C62610C6CF1B4F /* Info.plist */,
-			);
-			path = notificationservice;
-			sourceTree = "<group>";
-		};
 		869790C817CA13FD2F0C0D7F /* VO */ = {
 			isa = PBXGroup;
 			children = (
@@ -2756,34 +2686,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D79F4166802614F65FEE912A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		170143AA8F6C4D83A71D7155 /* notificationservice */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC8743EEAF88EA24B27DC14D /* Build configuration list for PBXNativeTarget "notificationservice" */;
-			buildPhases = (
-				C6EB47948D148EB90806DB11 /* Sources */,
-				D79F4166802614F65FEE912A /* Headers */,
-				0264476A8694D3E59E7BDCA8 /* Resources */,
-				2EF44ED4BF95CC2760BFBD25 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = notificationservice;
-			productName = notificationservice;
-			productReference = 60C84A869B2B202643DC1A2F /* notificationservice.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		1D6058900D05DD3D006BFB54 /* Unity-iPhone */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Unity-iPhone" */;
@@ -2793,13 +2698,11 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				9D25ABAB213FB47800354C27 /* Embed Frameworks */,
-				DE094A2EA103869AA751E26A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9D25ABA3213FB47800354C27 /* PBXTargetDependency */,
-				54744295BB110FC1BF36A3C1 /* PBXTargetDependency */,
 			);
 			name = "Unity-iPhone";
 			productName = "iPhone-target";
@@ -2877,12 +2780,6 @@
 							com.apple.InAppPurchase = {
 								enabled = 1;
 							};
-							com.apple.Push = {
-								enabled = 1;
-							};
-							com.apple.developer.applesignin = {
-								enabled = 1;
-							};
 						};
 						UnityMainTarget = 1;
 					};
@@ -2903,11 +2800,14 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Unity-iPhone" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = vi;
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
 				en,
-				vi,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -2917,19 +2817,11 @@
 				5623C57217FDCB0800090B9E /* Unity-iPhone Tests */,
 				9D25AB9C213FB47800354C27 /* UnityFramework */,
 				7F4E059F2717216D00A2CBE4 /* GameAssembly */,
-				170143AA8F6C4D83A71D7155 /* notificationservice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0264476A8694D3E59E7BDCA8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2941,9 +2833,7 @@
 				415674EFD2EC187355BC05B1 /* LaunchScreen-iPhoneLandscape.png in Resources */,
 				763ED5D885EABF761B2FE262 /* LaunchScreen-iPad.storyboard in Resources */,
 				D085C06443DB1B1B5C6637B6 /* LaunchScreen-iPad.png in Resources */,
-				BF5E418EA721982BB96AD8E6 /* GPMWebView.bundle in Resources */,
-				EF0D48E7848C8C8F4ADFB602,
-				8BB84792BF86D81EDBF13008 /* GoogleService-Info.plist in Resources */,
+				BBE34C388B4B1C99D5D22033 /* GPMWebView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2962,7 +2852,6 @@
 				ED945266A1708B7ADAB4BB52 /* xlua.bundle in Resources */,
 				965F0FFE665EB19874FCE2C6 /* GPMWebView.bundle in Resources */,
 				91C1EB5F348833EAD02A7E9A /* PrivacyInfo.xcprivacy in Resources */,
-				50E84E5A925ACAF7D26CE8C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2976,7 +2865,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"$CONFIGURATION\" = \"Debug\" ];\nthen\n    IL2CPP_CONFIG=\"Debug\"\nelse\n    IL2CPP_CONFIG=\"Release\"\nfi\n\nHOST_ARCH=$(uname -m)\nif [ \"$HOST_ARCH\" = \"arm64\" ];\nthen\n    HOST_ARCH_BEE=\"arm64\"\nelse\n    HOST_ARCH_BEE=\"x64\"\nfi\n\nif [ \"$ARCHS\" = \"arm64\" ];\nthen\n    LIB_ARCH=\"arm64\"\nelif [ \"$ARCHS\" = \"x86_64\" ];\nthen\n   LIB_ARCH=\"x64\"\nelse\n   LIB_ARCH=\"$HOST_ARCH_BEE\"\nfi\n\necho \"Lib arch: $LIB_ARCH\"\necho \"Host arch: $HOST_ARCH\"\necho \"Bee arch: $HOST_ARCH_BEE\"\n\nIL2CPP_DIR=\"$PROJECT_DIR/Il2CppOutputProject/IL2CPP/build/deploy_$HOST_ARCH\"\nIL2CPP=\"$IL2CPP_DIR/il2cpp\"\nchmod +x \"$IL2CPP\"\nchmod +x \"$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend\"\n\n\"$IL2CPP\" --compile-cpp --platform=iOS --baselib-directory=\"$PROJECT_DIR/Libraries\" --additional-defines=IL2CPP_DEBUG=0 --incremental-g-c-time-slice=3 --dotnetprofile=unityaot-macos --profiler-report --print-command-line --external-lib-il2-cpp=\"$PROJECT_DIR/Libraries/libil2cpp.a\" --generatedcppdir=\"Il2CppOutputProject/Source/il2cppOutput\" --architecture=\"$LIB_ARCH\" --outputpath=\"$CONFIGURATION_BUILD_DIR/libGameAssembly.a\" --cachedirectory=\"$CONFIGURATION_TEMP_DIR/artifacts/$LIB_ARCH\" --configuration=\"$IL2CPP_CONFIG\" \n";
+			shellScript = "if [ /"$CONFIGURATION/" = /"Debug/" ];/nthen/n    IL2CPP_CONFIG=/"Debug/"/nelse/n    IL2CPP_CONFIG=/"Release/"/nfi/n/nHOST_ARCH=$(uname -m)/nif [ /"$HOST_ARCH/" = /"arm64/" ];/nthen/n    HOST_ARCH_BEE=/"arm64/"/nelse/n    HOST_ARCH_BEE=/"x64/"/nfi/n/nif [ /"$ARCHS/" = /"arm64/" ];/nthen/n    LIB_ARCH=/"arm64/"/nelif [ /"$ARCHS/" = /"x86_64/" ];/nthen/n   LIB_ARCH=/"x64/"/nelse/n   LIB_ARCH=/"$HOST_ARCH_BEE/"/nfi/n/necho /"Lib arch: $LIB_ARCH/"/necho /"Host arch: $HOST_ARCH/"/necho /"Bee arch: $HOST_ARCH_BEE/"/n/nIL2CPP_DIR=/"$PROJECT_DIR/Il2CppOutputProject/IL2CPP/build/deploy_$HOST_ARCH/"/nIL2CPP=/"$IL2CPP_DIR/il2cpp/"/nchmod +x /"$IL2CPP/"/nchmod +x /"$IL2CPP_DIR/bee_backend/mac-$HOST_ARCH_BEE/bee_backend/"/n/n/"$IL2CPP/" --compile-cpp --platform=iOS --baselib-directory=/"$PROJECT_DIR/Libraries/" --additional-defines=IL2CPP_DEBUG=0 --incremental-g-c-time-slice=3 --dotnetprofile=unityaot-macos --profiler-report --print-command-line --external-lib-il2-cpp=/"$PROJECT_DIR/Libraries/libil2cpp.a/" --generatedcppdir=/"Il2CppOutputProject/Source/il2cppOutput/" --architecture=/"$LIB_ARCH/" --outputpath=/"$CONFIGURATION_BUILD_DIR/libGameAssembly.a/" --cachedirectory=/"$CONFIGURATION_TEMP_DIR/artifacts/$LIB_ARCH/" --configuration=/"$IL2CPP_CONFIG/" /n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3122,27 +3011,12 @@
 				E58B0523150CF74ECD768786 /* UnityNotificationWrapper.m in Sources */,
 				64057BD0BA3A6F381E486AAE /* GPMMessageReceiver.mm in Sources */,
 				57A547DA5EC9D35C1B1A96B9 /* TransactionResponse.swift in Sources */,
-				59184FF3A9FFB10362E704D8 /* Dummy.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6EB47948D148EB90806DB11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E14C47138B8E4840E6D0193E /* NotificationService.h in Sources */,
-				BD0C4C378741BB2A5DB6D0F1 /* NotificationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54744295BB110FC1BF36A3C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 170143AA8F6C4D83A71D7155 /* notificationservice */;
-			targetProxy = E25D4D4A83F1588B6B30B92F /* PBXContainerItemProxy */;
-		};
 		5623C58217FDCB0900090B9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D6058900D05DD3D006BFB54 /* Unity-iPhone */;
@@ -3165,7 +3039,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5623C57C17FDCB0900090B9E /* en */,
-				A40A41D0AA5AACF6535FEF6D /* vi */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3173,25 +3046,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		02EA40209C5A3F36D0A407A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD";
-				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2\\notificationservice\\Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.interits.KiemSonMobile.notificationservice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3203,16 +3057,14 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KiemSonMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = " $(inherited) FBSDKCOCOAPODS=1";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
@@ -3231,7 +3083,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNITY_RUNTIME_VERSION = 2022.3.62f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
@@ -3249,14 +3100,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KiemSonMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = " $(inherited) FBSDKCOCOAPODS=1";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
@@ -3275,31 +3124,11 @@
 				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNITY_RUNTIME_VERSION = 2022.3.62f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
 			name = Release;
-		};
-		3B5B47F5B8A4F7F0378D8168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD";
-				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2\\notificationservice\\Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.interits.KiemSonMobile.notificationservice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		5623C58317FDCB0900090B9E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3463,15 +3292,13 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KiemSonMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = " $(inherited) FBSDKCOCOAPODS=1";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
@@ -3490,7 +3317,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNITY_RUNTIME_VERSION = 2022.3.62f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
@@ -3600,14 +3426,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KiemSonMobile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = " $(inherited) FBSDKCOCOAPODS=1";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_GENERATE_MAP_FILE = YES;
@@ -3626,7 +3450,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				UNITY_RUNTIME_VERSION = 2022.3.62f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
@@ -3838,50 +3661,11 @@
 			};
 			name = Debug;
 		};
-		82F943838028505666FBF421 /* ReleaseForRunning */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD";
-				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2\\notificationservice\\Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.interits.KiemSonMobile.notificationservice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = ReleaseForRunning;
-		};
-		959A4786BEC87CE5F11A25EA /* ReleaseForProfiling */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD";
-				DEVELOPMENT_TEAM = RD7HWNS7RM;
-				INFOPLIST_FILE = "C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2\\notificationservice\\Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.interits.KiemSonMobile.notificationservice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = ReleaseForProfiling;
-		};
 		9D25ABA7213FB47800354C27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -3894,7 +3678,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3960,9 +3743,8 @@
 		9D25ABA8213FB47800354C27 /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -3975,7 +3757,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4042,9 +3823,8 @@
 		9D25ABA9213FB47800354C27 /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -4058,7 +3838,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4125,9 +3904,8 @@
 		9D25ABAA213FB47800354C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -4140,7 +3918,6 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4343,16 +4120,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		DC8743EEAF88EA24B27DC14D /* Build configuration list for PBXNativeTarget "notificationservice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02EA40209C5A3F36D0A407A4 /* Release */,
-				959A4786BEC87CE5F11A25EA /* ReleaseForProfiling */,
-				82F943838028505666FBF421 /* ReleaseForRunning */,
-				3B5B47F5B8A4F7F0378D8168 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

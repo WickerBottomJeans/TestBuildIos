@@ -4,17 +4,34 @@ workflows:
     instance_type: mac_mini_m2
     max_build_duration: 60
     scripts:
-      - name: Fix Windows Paths
+      - name: Fix Windows Paths & Setup Pods
         script: |
-          # This fixes the C:/.Dev/ error from your logs
-          sed -i '' 's|C:/.*/Client_Test_Ios/||g' Client_Test_Ios/Unity-iPhone.xcodeproj/project.pbxproj
-      - name: Build IPA from Xcode Project
+          PBXPROJ="Client_Test_Ios/Unity-iPhone.xcodeproj/project.pbxproj"
+          
+          # Fix forward-slash version of the Windows path
+          sed -i '' 's|C:/.Dev/KiemSon_aNam/_BuildClient/Client_Test_IOS_ver2/||g' "$PBXPROJ"
+          
+          # Fix backslash version (escaped for sed)
+          sed -i '' 's|C:\\\.Dev\\KiemSon_aNam\\_BuildClient\\Client_Test_IOS_ver2\\||g' "$PBXPROJ"
+          
+          # Normalize any remaining backslashes to forward slashes
+          sed -i '' 's|\\\\|/|g' "$PBXPROJ"
+          sed -i '' 's|\\|/|g' "$PBXPROJ"
+          
+          # Verify the fix worked - should return empty if path is gone
+          echo ">> Checking for leftover Windows paths:"
+          grep "C:/" "$PBXPROJ" || echo ">> Clean - no Windows paths found"
+          
+          cd Client_Test_Ios
+          chmod +x MapFileParser.sh
+          chmod +x MapFileParser.py
+          pod install
+
+      - name: Build IPA from Xcode Workspace
         script: |
-          # Go into your specific folder
           cd Client_Test_Ios
           
-          # Build without signing
-          xcodebuild -project Unity-iPhone.xcodeproj \
+          xcodebuild -workspace Unity-iPhone.xcworkspace \
             -scheme Unity-iPhone \
             -configuration Release \
             -sdk iphoneos \
@@ -24,8 +41,7 @@ workflows:
             DEVELOPMENT_TEAM="" \
             build
           
-          # Find the built .app using your old logic
-          APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" -path "*/Release-iphoneos/*" | head -n 1)
+          APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" -path "*/Release-iphoneos/*" | grep -v ".appex" | head -n 1)
           
           if [ -z "$APP_PATH" ]; then
             echo "ERROR: No .app found"
@@ -34,14 +50,12 @@ workflows:
           
           echo "Found: $APP_PATH"
           
-          # Create IPA in the workspace root
           cd $CM_BUILD_DIR
+          rm -rf Payload
           mkdir Payload
           cp -r "$APP_PATH" Payload/
           zip -r app.ipa Payload
-          
-          # Verify it exists
           ls -lh app.ipa
-          
+
     artifacts:
       - app.ipa
