@@ -5,21 +5,24 @@ workflows:
     scripts:
       - name: Build Unsigned IPA
         script: |
-          # This builds the app without looking for Apple Certificates
+          # Build from the subfolder and force output to a local build dir
           xcodebuild build \
             -project "Client_Test_Ios/Unity-iPhone.xcodeproj" \
             -scheme "Unity-iPhone" \
             -configuration Release \
             -sdk iphoneos \
+            -derivedDataPath "build" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
             AD_HOC_CODE_SIGNING_ALLOWED=YES
       - name: Package to IPA
         script: |
-          # This manually zips the result into a format your sideloader understands
-          mkdir -p build/ios/ipa/Payload
-          cp -r build/Release-iphoneos/Unity-iPhone.app build/ios/ipa/Payload/
-          cd build/ios/ipa && zip -r unsigned_app.ipa Payload
+          # Create Payload folder and move the compiled .app into it
+          mkdir -p build/ipa/Payload
+          # Find the .app file in the new build directory and copy it
+          cp -r build/Build/Products/Release-iphoneos/Unity-iPhone.app build/ipa/Payload/
+          # Zip it into an IPA
+          cd build/ipa && zip -r unsigned_app.ipa Payload
     artifacts:
-      - build/ios/ipa/*.ipa
+      - build/ipa/*.ipa
