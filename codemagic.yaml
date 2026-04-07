@@ -1,27 +1,47 @@
 workflows:
-  unity-ios-unsigned:
-    name: Unity Unsigned Build
+  xcode-to-ipa:
+    name: Convert Xcode to IPA
     instance_type: mac_mini_m2
+    max_build_duration: 60
     scripts:
-      - name: Fetch Large Files (LFS)
+      - name: Fix Windows Paths
         script: |
-          git lfs pull
-      - name: Build Unsigned IPA
+          # This fixes the C:/.Dev/ error from your logs
+          sed -i '' 's|C:/.*/Client_Test_Ios/||g' Client_Test_Ios/Unity-iPhone.xcodeproj/project.pbxproj
+      - name: Build IPA from Xcode Project
         script: |
-          xcodebuild build \
-            -project "Client_Test_Ios/Unity-iPhone.xcodeproj" \
-            -scheme "Unity-iPhone" \
+          # Go into your specific folder
+          cd Client_Test_Ios
+          
+          # Build without signing
+          xcodebuild -project Unity-iPhone.xcodeproj \
+            -scheme Unity-iPhone \
             -configuration Release \
             -sdk iphoneos \
-            -derivedDataPath "build" \
             CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
-            AD_HOC_CODE_SIGNING_ALLOWED=YES
-      - name: Package to IPA
-        script: |
-          mkdir -p build/ipa/Payload
-          cp -r build/Build/Products/Release-iphoneos/Unity-iPhone.app build/ipa/Payload/
-          cd build/ipa && zip -r unsigned_app.ipa Payload
+            CODE_SIGNING_REQUIRED=NO \
+            DEVELOPMENT_TEAM="" \
+            build
+          
+          # Find the built .app using your old logic
+          APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "*.app" -path "*/Release-iphoneos/*" | head -n 1)
+          
+          if [ -z "$APP_PATH" ]; then
+            echo "ERROR: No .app found"
+            exit 1
+          fi
+          
+          echo "Found: $APP_PATH"
+          
+          # Create IPA in the workspace root
+          cd $CM_BUILD_DIR
+          mkdir Payload
+          cp -r "$APP_PATH" Payload/
+          zip -r app.ipa Payload
+          
+          # Verify it exists
+          ls -lh app.ipa
+          
     artifacts:
-      - build/ipa/*.ipa
+      - app.ipa
